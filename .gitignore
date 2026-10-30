@@ -1,0 +1,85 @@
+# ======================
+# NAGARPAALAN AI — .gitignore
+# ======================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.pyo
+
+# ---- Node.js ----
+node_modules/
+dist/
+.vite/
+.turbo/
+.next/
+.nuxt/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- IDE / Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sln
+*.suo
+*.user
+*.workspace
+*~
+
+# ---- Environment ----
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ---- Docker ----
+docker-compose.override.yml
+*.pid
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Misc ----
+*.bak
+*.tmp
+*.temp
+.cache/
