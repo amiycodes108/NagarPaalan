@@ -1,4 +1,4 @@
-# NAGARPAALAN AI
+# NAGARPAALAN 
 
 **Modular Civic Infrastructure Intelligence Platform**
 
